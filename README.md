@@ -12,19 +12,19 @@ HARDWARE:
 SOFTWARE: Arduino IDE,
 (Proper Wi-fi Connection is required in this experiment.)
 CONNECTIONS:
-OLED ESP8266
-GND GND
-VCC 3.3V
-SCL D1
-SDA D2
-DHT sensor ESP8266
-GND GND
-DATA D4
-3V3 3V3
-MQ135 sensor ESP8266
-GND GND
-A0 A0
-PWR 3V3
+OLED-ESP8266
+GND-GND
+VCC-3.3V
+SCL-D1
+SDA-D2
+DHT sensor-ESP8266
+GND-GND
+DATA-D4
+3V3-3V3
+MQ135 sensor-ESP8266
+GND-GND
+A0 -A0
+PWR-3V3
 PROCEDURE:
 1. Take NodeMCU board, mount the OLED screen and Air quality sensor at
 their respective place in the board (DHT sensor is already mounted).
